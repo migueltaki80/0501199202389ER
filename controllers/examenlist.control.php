@@ -4,10 +4,10 @@ require_once "models/examendata.model.php";
 function run()
 {
     $viewData = array();
+    
 
 
-
-    renderizar("examenlist", $viewData);
+    renderizar("micro", $viewData);
 }
 
 run();

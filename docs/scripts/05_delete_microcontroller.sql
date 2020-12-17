@@ -1,0 +1,1 @@
+DELETE FROM microcontrollers WHERE mc_id = %d;

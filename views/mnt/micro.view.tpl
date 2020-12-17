@@ -50,6 +50,11 @@
             <td>
                 {{mc_type}}
             </td>
+            <td>
+                <a href="index.php?page=micr&mode=UPD&mc_id={{mc_id}}">Editar</a><br/>
+                <a href="index.php?page=micr&mode=DSP&mc_id={{mc_id}}">Mostrar</a><br/>
+                <a href="index.php?page=micr&mode=DEL&mc_id={{mc_id}}">Eliminar</a><br/>
+                </td>
         </tr>
         {{endfor micro}}
         </tbody>
