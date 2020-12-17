@@ -23,7 +23,7 @@ $smtpUser = 'amazonwebuserkey';
 $smtpSecret = 'smtpscreteer';
 $smtpPort = "587";
 
-$host_server = 'http://localhost/examen/';
+$host_server = 'http://localhost/0501199202389ER/';
 if (isset($_SERVER["SERVER_MVC"])) {
     $host_server = $_SERVER["SERVER_MVC"];
 }

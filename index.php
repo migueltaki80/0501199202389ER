@@ -44,6 +44,9 @@ case "examenlist":
 case "examenform":
     include_once "controllers/examenform.control.php";
     die();
+case "micro":
+    include_once "controllers/mnt/micro.control.php";
+    die();
 }
 
 addToContext("pageRequest", $pageRequest);
